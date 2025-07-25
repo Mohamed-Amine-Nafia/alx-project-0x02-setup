@@ -1,4 +1,5 @@
 import Header from "@/components/layout/Header";
+import Button from "@/components/common/Button";
 
 const AboutPage = () => {
   return (
@@ -10,6 +11,9 @@ const AboutPage = () => {
           This project demonstrates basic routing using the Next.js Pages
           Router.
         </p>
+        <Button size="small" shape="rounded-sm" label="Small Button" />
+        <Button size="medium" shape="rounded-md" label="Medium Button" />
+        <Button size="large" shape="rounded-full" label="Large Button" />
       </main>
     </>
   );
