@@ -17,6 +17,8 @@ export interface PostProps {
   title: string;
   content: string;
   userId: number;
+  id: number;
+  body: string;
 }
 export interface UserProps {
   name: string;
@@ -25,4 +27,10 @@ export interface UserProps {
     street: string;
     city: string;
   };
+}
+export interface ButtonProps {
+  label: string;
+  size: "small" | "medium" | "large";
+  shape: "rounded-sm" | "rounded-md" | "rounded-full";
+  onClick?: () => void;
 }
