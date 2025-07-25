@@ -21,6 +21,7 @@ export interface PostProps {
   body: string;
 }
 export interface UserProps {
+  id: number;
   name: string;
   email: string;
   address: {
@@ -28,6 +29,7 @@ export interface UserProps {
     city: string;
   };
 }
+
 export interface ButtonProps {
   label: string;
   size: "small" | "medium" | "large";
